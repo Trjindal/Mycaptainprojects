@@ -1,0 +1,26 @@
+#fibonacci series
+
+num = int(input("Enter any number till where you want to continue your series : "))
+first_num=0
+second_num=1
+if(num==0):
+    print("0")
+    
+elif(num<0):
+    print("Enter any positive integer only.")
+    
+else:
+    if(num>=1):
+        print(first_num)
+        print(second_num)
+        sum=0
+        while(sum<num):
+            
+            sum=first_num+second_num
+            if(sum>num):
+                break
+            print(sum)
+            first_num=second_num
+            second_num=sum
+           
+        
