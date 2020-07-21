@@ -1,0 +1,14 @@
+list1=[12,-7,5,64,-14]
+print("\nPositive numbers of list 1:")
+for positive in list1:
+    if (positive>0):
+        print(positive,end=",")
+print("\nPositive numbers of list 2:")
+
+list2=[12,14,-95,3]
+for positive in list2:
+    if (positive>0):
+        print(positive,end=",")
+
+
+    
