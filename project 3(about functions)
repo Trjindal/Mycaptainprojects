@@ -1,0 +1,42 @@
+#ALL ABOUT LISTS
+
+students=['Hardik','Anush','Vishal','Saksham']
+print("Students list initialized: "+ str(students))
+students.append("Tushar")
+print("Students list after appending: "+ str(students))
+data1=[145,132,138,234]
+print("list 1:"+str(data1))
+data2=[234,456,7879,2356]
+print("List2: "+str(data2))
+print(data1+data2)
+data3=data1+data2
+print("List after concatenation: "+str(data3))
+print("poping last digit: "+str(data3.pop()))
+
+del data3[2]
+print("List after deleting second index from list3 "+str(data3))
+
+#ALL ABOUT DICTONARIES
+fruits={
+    'Apple':'Red',
+    'Grapes':'Green',
+    'Banana':'Yellow',
+   
+    
+}
+print("\n \n")
+print("fruits dictonary initialized: "+str(fruits))
+fruits.pop('Banana')
+print("Fruits dictonary after deleting Banana: "+str(fruits))
+fruits["orange"]="orange"
+print("Fruits dictonary after adding: "+str(fruits))
+
+
+#All about tupples
+print("\n \n")
+thistuple = ("apple", "banana", "cherry")
+
+print("Tupple Initialized: "+str(thistuple))
+if "apple" in thistuple:
+  print("Yes, 'apple' is in the fruits tuple")
+print("Length of this tupple is :"+str(len(thistuple)))
